@@ -1,2 +1,10 @@
 # Application4
 #Website
+#Home
+{%extends "layout.htm"%}
+{%block content%}
+<div class="home">
+    <h1>My HomePage</h1>
+    <p>This is a test website.</p>
+</div>    
+{%endblock%}
